@@ -1,0 +1,16 @@
+<div class="card">
+    <h2 class="title">{{name.common}}</h2>
+    <div class="box-about">
+        <p><b>Capital:</b>{{capital}}</p>
+        <p><b>Population:</b>{{population}}</p>
+        </li>
+        <p><b>Languages:</b></p>
+        <ul>
+            {{#each languages}}
+            <li>{{languages.name}}</li>
+            {{/each}}
+        </ul>
+        </div>
+        <img src="{{flag.png}}" alt="{{name}}">
+    
+</div>
